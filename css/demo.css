@@ -28,3 +28,6 @@ h1 span {
 p + p {
   margin-top: 1.5em;
 }
+.git {
+  background: #000;
+}
