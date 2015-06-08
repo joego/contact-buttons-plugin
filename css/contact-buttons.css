@@ -15,6 +15,11 @@
   width: 50px;
 }
 
+
+#contact-buttons-bar.slide-on-scroll {
+  position: absolute;
+}
+
 .contact-button-link  {
   display: block;
   width: 50px;
@@ -55,6 +60,10 @@
 }
 .contact-button-link.gplus {
   background: #db4437;
+}
+
+.contact-button-link.separated {
+  margin-top: 1em;
 }
 
 .show-hide-contact-bar,
