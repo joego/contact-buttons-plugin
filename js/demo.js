@@ -1,6 +1,6 @@
-/*
- * Share Buttons Plugin Demo 0.1.0
- * https://github.com/joege/share-buttons-plugin
+/*!
+ * Contact Buttons Plugin Demo 0.1.0
+ * https://github.com/joege/contact-buttons-plugin
  *
  * Copyright 2015, José Gonçalves
  *
@@ -23,4 +23,10 @@ WebFontConfig = {
 })();
 
 // Initialize Share-Buttons
-$.shareButtons();
+$.shareButtons({
+  'facebook' : { use: true, link: 'MyExample', link: 'https://www.facebook.com/pages/mycompany' },
+  'linkedin' : { , use: true, link: 'https://www.linkedin.com/company/mycompany' },
+  'google' : { use: true, link: 'https://plus.google.com/myidongoogle' },
+  'phone' : { use: true, link: '+000', },
+  'email' : { use: true, link: 'test@web.com' }
+});
