@@ -18,4 +18,4 @@ Released under the [MIT license](http://www.opensource.org/licenses/MIT).
 
 ## Copyright
 
-&copy; 2015 &middot; José Gonçalves.
+Copyright &copy; 2015 José Gonçalves.
