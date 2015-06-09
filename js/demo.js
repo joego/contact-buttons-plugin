@@ -23,7 +23,7 @@ WebFontConfig = {
 })();
 
 // Initialize Share-Buttons
-$.shareButtons({
+$.contactButtons({
   effect  : 'slide-on-scroll',
   buttons : {
     'facebook':   { class: 'facebook', use: true, link: 'https://www.facebook.com/pages/mycompany', extras: 'target="_blank"' },
