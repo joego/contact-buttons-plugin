@@ -12,7 +12,7 @@
   'use strict';
 
   // Main function
-  $.shareButtons = function( options ){
+  $.contactButtons = function( options ){
     
     // Define the defaults
     var defaults = { 
