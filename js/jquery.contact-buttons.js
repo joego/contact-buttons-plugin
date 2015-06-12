@@ -63,7 +63,7 @@
             active = bs.use;
         
         // Check if element is active
-        if (bs.use === true) {
+        if (active) {
           
           // Change the link for phone and email when needed
           if (bs.type === 'phone') {
@@ -75,7 +75,7 @@
           // Insert the links
           var sIcon = '<span class="fa fa-' + bs.icon + '"></span>',
               sButton = '<a href="' + sLink + 
-                          '"class="contact-button-link cb-ancor ' + bs.class + '" ' + 
+                          '" class="contact-button-link cb-ancor ' + bs.class + '" ' + 
                           (bs.title ? 'title="' + bs.title + '"' : '') + 
                           (bs.extras ? bs.extras : '') + 
                           '>' + sIcon + '</a>';
