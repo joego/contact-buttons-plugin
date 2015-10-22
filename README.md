@@ -8,7 +8,7 @@
 
 ## Description
 
-A plugin based on jQuery to add contact buttons to your website.
+A jQuery plugin to add contact buttons to your website.
 
 
 ## License
